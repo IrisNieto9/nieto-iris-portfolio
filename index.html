@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet"> 
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <title>Home</title>
+    
+</head>
+<body>
+    <header>
+        <img class="logo" src="./imagenes/logo-dospuntos3.png" alt="Imagen Logo" width="350">
+        <h1>Creaciones Dos Puntos 3</h1>
+
+
+    </header>
+    <nav>
+        <a href="bordados.html">BORDADOS Y MUÑECOS</a>
+        <a href="felting.html">APRENDE CON NOSOTROS</a>
+
+    </nav>
+    <div class="presentacion">
+        <p >Hola! Mi nombre es Iris, te invito a conocer mi mundo de creaciones manuales donde podras encontrar cosas hermosas para llevar a tu hogar
+            o la de un ser querido. Todos mis productos son resultado de una dedicacion constantes para garantizar un producto con excelentes
+            resultados hechos con materiales de calidad. Te invito a conocer mis galerias!
+        </p>
+
+    </div>
+    
+   <section>
+    <div class="imagenes-presentacion">
+        <img class="pollito" src="./imagenes/pollito-felting.jpg" alt="Muñeco de Fieltro" >
+        <img class="hello" src="./imagenes/Hello-bord.jpg" alt="Hello bordado" >
+        <img class="herramientas" src="./imagenes/herramientas.jpg" alt="herramientas" >
+    </div>
+
+   </section>
+   
+   <footer>
+       <h3>¿Querés enterarte de nuestras novedades?</h3>
+    <form action="" class="formulario" id="formulario">
+            
+        <!-- Grupo: Nombre -->
+        <div class="formulario__grupo" id="grupo__nombre">
+            <label for="nombre" class="formulario__label">Nombre</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="John Doe">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">El usuario tiene que ser de 4 a 16 dígitos y solo puede contener numeros, letras y guion bajo.</p>
+        </div>
+
+        <!-- Grupo: Correo Electronico -->
+        <div class="formulario__grupo" id="grupo__correo">
+            <label for="correo" class="formulario__label">Correo Electrónico</label>
+            <div class="formulario__grupo-input">
+                <input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@correo.com">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+        </div>
+
+        <!-- Grupo: Contraseña -->
+        <div class="formulario__grupo" id="grupo__password">
+            <label for="password" class="formulario__label">Contraseña</label>
+            <div class="formulario__grupo-input">
+                <input type="password" class="formulario__input" name="password" id="password">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">La contraseña tiene que ser de 4 a 12 dígitos.</p>
+        </div>
+
+        <!-- Grupo: Teléfono -->
+        <div class="formulario__grupo" id="grupo__telefono">
+            <label for="telefono" class="formulario__label">Teléfono</label>
+            <div class="formulario__grupo-input">
+                <input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="4491234567">
+                <i class="formulario__validacion-estado fas fa-times-circle"></i>
+            </div>
+            <p class="formulario__input-error">El telefono solo puede contener numeros y el maximo son 14 dígitos.</p>
+        </div>
+
+        <!-- Grupo: Terminos y Condiciones -->
+        <div class="formulario__grupo" id="grupo__terminos">
+            <label class="formulario__label">
+                <input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+                Acepto los Terminos y Condiciones
+            </label>
+        </div>
+
+        <div class="formulario__mensaje" id="formulario__mensaje">
+            <h6><i class="fas fa-exclamation-triangle fa-2x"></i> <b>Error:</b> Por favor rellena el formulario correctamente. </h6>
+        </div>
+
+        <div class="formulario__grupo formulario__grupo-btn-enviar">
+            <button type="submit" class="formulario__btn">Enviar</button>
+            <p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+        </div>
+    </form>
+    
+    <div class="suscribe">
+		<h4 class="Contactate"><strong>Contactate con Nosotros</strong></h4> 
+        <i class='bx bxl-instagram bx-tada' style='color:#979b9b'  ></i>
+        <i class='bx bxl-whatsapp bx-tada' style='color:#979b9b' ></i>
+        <p>Somos de Cordoba, Argentina. Hacemos envios a todo el pais!</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13619.476256367574!2d-64.18937326789279!3d-31.417733402456943!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432a29d1d3f9d45%3A0xcbcd910412819792!2sCentro%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1650985872079!5m2!1ses-419!2sar" width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+       
+        
+	</div>
+
+   </footer>
+   
+   <script src="formulario.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</body>
+</html>
